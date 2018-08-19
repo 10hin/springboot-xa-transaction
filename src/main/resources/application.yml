@@ -3,7 +3,6 @@ app:
     mysql:
       datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        type: com.mysql.cj.jdbc.Driver
         # place your database url
         url: 
         # place your database username
@@ -31,7 +30,6 @@ app:
     postgresql:
       datasource:
         driver-class-name: org.postgresql.Driver
-        type: org.postgresql.Driver
         # place your database url
         url: 
         # place your database username
